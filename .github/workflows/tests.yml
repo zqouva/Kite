@@ -1,0 +1,39 @@
+name: Kite
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: lower, analyze, test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: build the Luau toolchain
+        run: |
+          curl -sSL -o luau-src.tar.gz \
+            https://codeload.github.com/luau-lang/luau/tar.gz/refs/tags/0.740
+          tar xzf luau-src.tar.gz
+          mv luau-0.740 tools/luau-src
+          make -C tools/luau-src config=release -j2 luau luau-analyze
+
+      - name: lower the package
+        run: python3 build.py --luau
+
+      - name: type check
+        run: ./tools/analyze.sh
+
+      - name: run the suite
+        run: tools/luau-src/luau Tests/run.luau
+
+      - name: report the const flavor
+        run: python3 build.py --check
