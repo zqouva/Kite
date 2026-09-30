@@ -121,7 +121,7 @@ Compiler.callable = callable
 
 --> ["sugar"]
 -- Creative and performance modes take shorthands. Strict mode refuses them
--- and hands you the long form.
+-- and gives you the long form.
 
 local function childOf(class: string, props: { [string]: any }): Plan
 	return Compiler.plan({

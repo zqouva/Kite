@@ -180,7 +180,7 @@ function Component.register(Mount: any)
 end
 
 --> ["helpers"]
--- `kite.use(props, key, fallback)` hands you something you can drop into
+-- `kite.use(props, key, fallback)` gives you something you can drop into
 -- any property, whether the caller passed a value, a source, or nothing.
 
 function Component.use(props: { [any]: any }, key: string, fallback: any): any

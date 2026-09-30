@@ -206,7 +206,7 @@ kite.create `Frame` {
 
 topic({
 	name = "go",
-	summary = "Builds the tree and puts it on screen. The whole ceremony, in one call.",
+	summary = "Builds the tree and puts it on screen. Build it, parent it, own it. One call.",
 	usage = "const handle = kite.go(build)",
 	example = [[
 return kite.go(function()

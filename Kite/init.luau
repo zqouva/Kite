@@ -348,7 +348,7 @@ end
 	Physics motion. It overshoots, it settles, it feels like it weighs
 	something.
 
-	Hand it a source, or a function that reads sources. It hands back a
+	Hand it a source, or a function that reads sources. It gives you a
 	something you can drop into any property. Works on numbers, Vector2,
 	Vector3, UDim, UDim2, Color3, and CFrame.
 
@@ -542,7 +542,7 @@ function Kite.home(): any
 end
 
 --[=[
-	Builds a tree under a parent and hands back a handle that owns every
+	Builds a tree under a parent and gives you a handle that owns every
 	instance, connection, and motion inside it.
 
 	Leave the parent out and it goes to PlayerGui. `kite.go` is shorter if
@@ -973,7 +973,7 @@ function Kite.know(className: string, parent: string?, props: { [string]: string
 end
 
 --[=[
-	Compiles a tree once and hands back the plan, so you can mount the same
+	Compiles a tree once and gives you the plan, so you can mount the same
 	plan many times without walking the table again.
 
 	Example:
@@ -1001,7 +1001,7 @@ function Kite.profile(state: boolean?)
 end
 
 --[=[
-	Times one call, and hands back both the result and how long it took.
+	Times one call, and gives you both the result and how long it took.
 
 	Example:
 	```lua

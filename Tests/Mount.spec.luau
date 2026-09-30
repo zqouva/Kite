@@ -78,7 +78,7 @@ return function(H: any, Kite: any, Stub: any)
 			handle:destroy()
 		end)
 
-		H.test("a ref hands back the instance", function()
+		H.test("a ref gives you the instance", function()
 			local box = Kite.ref()
 			local handle = Kite.mount(Kite.create("TextBox", {
 				Name = "Input",

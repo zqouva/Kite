@@ -2,7 +2,7 @@
 <Meta name="ExplicitAutoJoints">true</Meta>
 <External>null</External>
 <External>nil</External>
-	<Item class="Folder" referent="RBX1f31ba2e9ac54759">
+	<Item class="Folder" referent="RBX7f699e6b3b7e3fdf">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -11,7 +11,7 @@
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Folder" referent="RBX583574d205e2416a">
+		<Item class="Folder" referent="RBX57f3f32e8e1b8404">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -20,7 +20,7 @@
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="LocalScript" referent="RBXf44e4f67b6635055">
+			<Item class="LocalScript" referent="RBXaad8bc3c113d7bb3">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -498,7 +498,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Folder" referent="RBX7972c2584ce280a8">
+		<Item class="Folder" referent="RBXccf1984ba7faf4e7">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -507,7 +507,7 @@
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="ModuleScript" referent="RBX69f8642a8f619040">
+			<Item class="ModuleScript" referent="RBX1bcb63c38d58eb77">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -636,7 +636,7 @@
 		
 		--&gt; ["sugar"]
 		-- Creative and performance modes take shorthands. Strict mode refuses them
-		-- and hands you the long form.
+		-- and gives you the long form.
 		
 		local function childOf(class: string, props: { [string]: any }): Plan
 			return Compiler.plan({
@@ -1080,7 +1080,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBXb750cbf6cf84d4d6">
+			<Item class="ModuleScript" referent="RBXf3bef4e3b2c00baa">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -1268,7 +1268,7 @@
 		end
 		
 		--&gt; ["helpers"]
-		-- `kite.use(props, key, fallback)` hands you something you can drop into
+		-- `kite.use(props, key, fallback)` gives you something you can drop into
 		-- any property, whether the caller passed a value, a source, or nothing.
 		
 		function Component.use(props: { [any]: any }, key: string, fallback: any): any
@@ -1333,7 +1333,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX99aef609343c079f">
+			<Item class="ModuleScript" referent="RBX49caa1ddba22169e">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -1416,7 +1416,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX267fc37fd131d972">
+			<Item class="ModuleScript" referent="RBXccf23c5d20bbe1f7">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -1630,7 +1630,7 @@
 		
 		topic({
 			name = "go",
-			summary = "Builds the tree and puts it on screen. The whole ceremony, in one call.",
+			summary = "Builds the tree and puts it on screen. Build it, parent it, own it. One call.",
 			usage = "const handle = kite.go(build)",
 			example = [[
 		return kite.go(function()
@@ -2021,7 +2021,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX2d0044fd4447ba77">
+			<Item class="ModuleScript" referent="RBXefdf56d6f61e26c5">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -2768,7 +2768,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBXc3db715cf15cb5d5">
+			<Item class="ModuleScript" referent="RBX46be0398dab362c5">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -3164,7 +3164,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX5d786c05ba625690">
+			<Item class="ModuleScript" referent="RBX213a7a6b706ae5be">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -3526,7 +3526,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBXa180d2e2599caea8">
+			<Item class="ModuleScript" referent="RBXc2b138bd06e3ffa3">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -3542,7 +3542,7 @@
 				kite.creative(tree)     shorthands allowed, structure still checked
 				kite.performance(tree)  costs instead of correctness
 		
-			Each one hands back a report:
+			Each one gives you a report:
 		
 			```lua
 			local report = kite.strict(tree)
@@ -4127,7 +4127,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX70c9301e4b1ab2f8">
+			<Item class="ModuleScript" referent="RBX3033ae297d560f36">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -4629,7 +4629,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBXe6221ba747a00964">
+			<Item class="ModuleScript" referent="RBX0cbbebd962bf9102">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -4978,7 +4978,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX93747c84cd08b002">
+			<Item class="ModuleScript" referent="RBX083a2cc8120d3b99">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -5228,7 +5228,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX1d4919ca6c8a24a4">
+			<Item class="ModuleScript" referent="RBXba2cf118fd9b50c2">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -5916,7 +5916,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBXe696974f9d0369b9">
+			<Item class="ModuleScript" referent="RBX3919a7296d7079c6">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -6212,7 +6212,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX07bb2ba589491d7b">
+			<Item class="ModuleScript" referent="RBX985f1d96b670772c">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -7075,7 +7075,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBXb2de63520eb753d9">
+			<Item class="ModuleScript" referent="RBX875d1c85faa32829">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -7528,7 +7528,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Folder" referent="RBXe81a50c3ae6e8255">
+		<Item class="Folder" referent="RBX16cc12c023e7ab8b">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -7537,7 +7537,7 @@
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="LocalScript" referent="RBX2e56eb19dd1ebde2">
+			<Item class="LocalScript" referent="RBXbf9f6831647f8b39">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -7665,7 +7665,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="LocalScript" referent="RBXcf2987fc7797c452">
+			<Item class="LocalScript" referent="RBXd17d32cbcf9c7599">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -8417,7 +8417,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="LocalScript" referent="RBX61b70b6b8b90d700">
+			<Item class="LocalScript" referent="RBX9c91296aad7001d8">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -8522,7 +8522,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="LocalScript" referent="RBXa91746cf8877ebd1">
+			<Item class="LocalScript" referent="RBX94d51126429ff57f">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -8929,7 +8929,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Folder" referent="RBX9b40d9502f3cf18e">
+		<Item class="Folder" referent="RBX7aac1a75af0baff1">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -8938,7 +8938,7 @@
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="LocalScript" referent="RBX492dcd53c207cf40">
+			<Item class="LocalScript" referent="RBXa599f50af3a70462">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -9052,7 +9052,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="LocalScript" referent="RBXd82b5e3645752282">
+			<Item class="LocalScript" referent="RBX02000adf6e583ed4">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -9240,7 +9240,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="LocalScript" referent="RBXc8baa7d73c32ddd0">
+			<Item class="LocalScript" referent="RBX726524861c74af70">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -9370,7 +9370,7 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="LocalScript" referent="RBX0a5c2b3a42869143">
+			<Item class="LocalScript" referent="RBX79ad031f815fe009">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -9522,7 +9522,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="ModuleScript" referent="RBX95f35505aedf9b35">
+		<Item class="ModuleScript" referent="RBX4782945f43f870fe">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -9878,7 +9878,7 @@
 		Physics motion. It overshoots, it settles, it feels like it weighs
 		something.
 	
-		Hand it a source, or a function that reads sources. It hands back a
+		Hand it a source, or a function that reads sources. It gives you a
 		something you can drop into any property. Works on numbers, Vector2,
 		Vector3, UDim, UDim2, Color3, and CFrame.
 	
@@ -10072,7 +10072,7 @@
 	end
 	
 	--[=[
-		Builds a tree under a parent and hands back a handle that owns every
+		Builds a tree under a parent and gives you a handle that owns every
 		instance, connection, and motion inside it.
 	
 		Leave the parent out and it goes to PlayerGui. `kite.go` is shorter if
@@ -10503,7 +10503,7 @@
 	end
 	
 	--[=[
-		Compiles a tree once and hands back the plan, so you can mount the same
+		Compiles a tree once and gives you the plan, so you can mount the same
 		plan many times without walking the table again.
 	
 		Example:
@@ -10531,7 +10531,7 @@
 	end
 	
 	--[=[
-		Times one call, and hands back both the result and how long it took.
+		Times one call, and gives you both the result and how long it took.
 	
 		Example:
 		```lua

@@ -8,7 +8,7 @@
 		kite.creative(tree)     shorthands allowed, structure still checked
 		kite.performance(tree)  costs instead of correctness
 
-	Each one hands back a report:
+	Each one gives you a report:
 
 	```lua
 	const report = kite.strict(tree)
