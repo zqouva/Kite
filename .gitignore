@@ -1,0 +1,17 @@
+# --> ["Kite : ignored"]
+
+# the Luau toolchain is built here, it is not part of the package
+tools/luau-src/
+tools/luau.zip
+tools/luau-src.tar.gz
+tools/npmtest/
+
+# build products
+build/
+
+# python
+__pycache__/
+*.pyc
+
+# editors
+.DS_Store

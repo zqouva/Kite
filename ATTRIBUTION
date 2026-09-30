@@ -1,0 +1,74 @@
+-- THIS FILE MUST NOT BE TOUCHED NOR DELETED. INJECT THIS INTO YOUR CLIENT AND SERVER.
+--[[
+	@author: Makel/Savi @sacredludt
+	@description: ATTRIBUTION 
+
+	@purpose: to provide /attribution.
+
+	@version: 0.1.0
+]]
+
+
+const Configuration = script.Parent
+
+assert(
+	Configuration:IsA("Configuration"),
+	"[Makel/Savi's Kite] Expected script.Parent to be a Configuration."
+)
+
+const VERSION = "0.1.0"
+const LOADER_NAME = "Makel/Savi's Kite"
+const GITHUB = "github.com/zqouva"
+
+local function line(character: string, length: number): string
+	return string.rep(character, length)
+end
+
+const WIDTH = 72
+
+local function row(text: string): string
+	const content = `  {text}`
+	return `║{content}{string.rep(" ", math.max(0, WIDTH - #content))}║`
+end
+
+local function printSignature()
+	print("")
+	print(`╔{line("═", WIDTH)}╗`)
+	print(row(""))
+	print(row("M A K E L  /  S A V I"))
+	print(row("Makel/Savi's Kite"))
+	print(row(""))
+	print(row(`◆ VERSION  {VERSION} IF THERE IS A MITCH MATCH THEN YOU ARE ON THE WRONG VERSION.`))
+	print(row(`◆ STATUS   ONLINE`))
+	print(row(`◆ SOURCE   {GITHUB}`))
+	print(row(""))
+	print(`╠{line("═", WIDTH)}╣`)
+	print(row("OPEN SOURCE"))
+	print(row(""))
+	print(row("  Merveille"))
+	print(row("  └─ A Roblox data paradigm by Makel/Savi"))
+	print(row(""))
+	print(row("  CTimesTimes"))
+	print(row("  └─ A programming language created by Makel/Savi"))
+	print(row(""))
+	print(`╠{line("═", WIDTH)}╣`)
+	print(row(""))
+	print(row("THIS LOADER IS A SIGNATURE."))
+	print(row(""))
+	print(row("If you encounter this message today, the loader is running."))
+	print(row("If you encounter it again somewhere in the future,"))
+	print(row("and one day this message disappears while the loader"))
+	print(row("continues to operate, please report it."))
+	print(row(""))
+	print(row("Discord / Instagram"))
+	print(row("└─ @sacredludt or .makel"))
+	print(row(""))
+	print(row("Attribution is required by the accompanying license."))
+	print(row("Please report instances where attribution has been removed"))
+	print(row("while the loader remains in use."))
+	print(row(""))
+	print(`╚{line("═", WIDTH)}╝`)
+	print("")
+end
+
+printSignature()
